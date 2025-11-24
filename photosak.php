@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="photosak.css">
 </head>
 <body>
-    
+    <div class="wrapper">
+<div class="box">
+    <div class="col">
+        <h2 class="title">Welcome to Photo</h2>
+        <input type="submit" value="Log in">
+        <input type="submit" value="Sign up">
+    </div> 
+</div>
+
+    </div>
 </body>
 </html>
