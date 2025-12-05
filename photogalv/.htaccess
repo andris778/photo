@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+# Atļauj piekļūt uploads mapē
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>

@@ -23,9 +23,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             // Ielogošanās veiksmīga
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['username'] = $user['username'];
-            $_SESSION['success'] = "Login successful!";
             
-            // Novirza uz galveno lapu vai lietotāja paneli
+            // Novirza uz galveno lapu
             header("Location: dashboard.php");
             exit();
         } else {

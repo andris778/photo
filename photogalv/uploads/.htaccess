@@ -1,0 +1,14 @@
+# Atlauj piekluvi tikai attelu failiem
+Order Allow,Deny
+
+<FilesMatch "\.(jpg|jpeg|png|gif|webp|ico|svg)$">
+    Allow from all
+</FilesMatch>
+
+# Aizliedz izpildamos failus
+<FilesMatch "\.(php|php5|phtml|pl|py|jsp|asp|sh|cgi)$">
+    Deny from all
+</FilesMatch>
+
+# Aizliedz piekluvi direktorijam
+Options -Indexes
