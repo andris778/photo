@@ -63,7 +63,6 @@ try {
             <h1 style="color: white; font-size: 24px;">My Uploaded Images</h1>
             <div>
                 <a href="photogalv.php" class="back-button">← Back</a>
-                <a href="upload_image.php" class="upload-new">+ Upload New</a>
             </div>
         </div>
         

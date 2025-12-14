@@ -37,7 +37,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['photo_id'])) {
             $stmt = $pdo->prepare("DELETE FROM photos WHERE id = ? AND user_id = ?");
             $stmt->execute([$photo_id, $user_id]);
             
-            $_SESSION['success'] = "Image deleted successfully.";
         } else {
             $_SESSION['error'] = "Image not found or you don't have permission to delete it.";
         }
